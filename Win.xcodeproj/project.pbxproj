@@ -13,6 +13,8 @@
 		150DC88614069528008DE148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DC88514069528008DE148 /* main.m */; };
 		150DC88A14069528008DE148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DC88914069528008DE148 /* AppDelegate.m */; };
 		150DC89114069561008DE148 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150DC89014069560008DE148 /* MainWindow.xib */; };
+		150DC89414069ABC008DE148 /* CurrentTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DC89314069ABC008DE148 /* CurrentTimeViewController.m */; };
+		150DC89714069AEB008DE148 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DC89614069AEB008DE148 /* HypnosisViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		150DC88814069528008DE148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		150DC88914069528008DE148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		150DC89014069560008DE148 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+		150DC89214069ABC008DE148 /* CurrentTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentTimeViewController.h; sourceTree = "<group>"; };
+		150DC89314069ABC008DE148 /* CurrentTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentTimeViewController.m; sourceTree = "<group>"; };
+		150DC89514069AEB008DE148 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		150DC89614069AEB008DE148 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 				150DC89014069560008DE148 /* MainWindow.xib */,
 				150DC88814069528008DE148 /* AppDelegate.h */,
 				150DC88914069528008DE148 /* AppDelegate.m */,
+				150DC89214069ABC008DE148 /* CurrentTimeViewController.h */,
+				150DC89314069ABC008DE148 /* CurrentTimeViewController.m */,
+				150DC89514069AEB008DE148 /* HypnosisViewController.h */,
+				150DC89614069AEB008DE148 /* HypnosisViewController.m */,
 				150DC88014069528008DE148 /* Supporting Files */,
 			);
 			path = Win;
@@ -153,6 +163,8 @@
 			files = (
 				150DC88614069528008DE148 /* main.m in Sources */,
 				150DC88A14069528008DE148 /* AppDelegate.m in Sources */,
+				150DC89414069ABC008DE148 /* CurrentTimeViewController.m in Sources */,
+				150DC89714069AEB008DE148 /* HypnosisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
