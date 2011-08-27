@@ -9,6 +9,7 @@
 #import "HypnosisViewController.h"
 
 
+
 @implementation HypnosisViewController
 
 - (id)init
@@ -18,9 +19,27 @@
     if (self) {
         UITabBarItem *tbi = [self tabBarItem];
         
-        [tbi setTitle:@"舞台"];
+        [tbi setTitle:@"Line-Up"];
+        
+        UIImage *i = [UIImage imageNamed:@"Hypno.png"];
+        
+        [tbi setImage:i];
     }
     return self;
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    return [self init];
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    NSLog(@"Loaded the view for HypnosisViewController");
+    
+    [[self view] setBackgroundColor:[UIColor orangeColor]];
 }
 
 @end

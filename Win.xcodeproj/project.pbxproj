@@ -15,6 +15,9 @@
 		150DC89114069561008DE148 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150DC89014069560008DE148 /* MainWindow.xib */; };
 		150DC89414069ABC008DE148 /* CurrentTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DC89314069ABC008DE148 /* CurrentTimeViewController.m */; };
 		150DC89714069AEB008DE148 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DC89614069AEB008DE148 /* HypnosisViewController.m */; };
+		159BB507140928C700C03930 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 159BB506140928C700C03930 /* Time.png */; };
+		159BB509140928CD00C03930 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 159BB508140928CD00C03930 /* Hypno.png */; };
+		159BB50B14092EF700C03930 /* CurrentTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159BB50A14092EF700C03930 /* CurrentTimeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		150DC89314069ABC008DE148 /* CurrentTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentTimeViewController.m; sourceTree = "<group>"; };
 		150DC89514069AEB008DE148 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
 		150DC89614069AEB008DE148 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
+		159BB506140928C700C03930 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		159BB508140928CD00C03930 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		159BB50A14092EF700C03930 /* CurrentTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentTimeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 				150DC89314069ABC008DE148 /* CurrentTimeViewController.m */,
 				150DC89514069AEB008DE148 /* HypnosisViewController.h */,
 				150DC89614069AEB008DE148 /* HypnosisViewController.m */,
+				159BB50A14092EF700C03930 /* CurrentTimeViewController.xib */,
 				150DC88014069528008DE148 /* Supporting Files */,
 			);
 			path = Win;
@@ -91,6 +98,8 @@
 		150DC88014069528008DE148 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				159BB508140928CD00C03930 /* Hypno.png */,
+				159BB506140928C700C03930 /* Time.png */,
 				150DC88114069528008DE148 /* Win-Info.plist */,
 				150DC88214069528008DE148 /* InfoPlist.strings */,
 				150DC88514069528008DE148 /* main.m */,
@@ -151,6 +160,9 @@
 			files = (
 				150DC88414069528008DE148 /* InfoPlist.strings in Resources */,
 				150DC89114069561008DE148 /* MainWindow.xib in Resources */,
+				159BB507140928C700C03930 /* Time.png in Resources */,
+				159BB509140928CD00C03930 /* Hypno.png in Resources */,
+				159BB50B14092EF700C03930 /* CurrentTimeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +280,7 @@
 				150DC88F14069528008DE148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

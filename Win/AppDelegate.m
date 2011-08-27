@@ -24,13 +24,13 @@
     
     UIViewController *vc1 = [[HypnosisViewController alloc] init];
     UIViewController *vc2 = [[CurrentTimeViewController alloc] init];
-    UIViewController *vc3 = [[CurrentTimeViewController alloc] init];
-    UIViewController *vc4 = [[CurrentTimeViewController alloc] init];
-    UIViewController *vc5 = [[CurrentTimeViewController alloc] init];
+//    UIViewController *vc3 = [[CurrentTimeViewController alloc] init];
+//    UIViewController *vc4 = [[CurrentTimeViewController alloc] init];
+//    UIViewController *vc5 = [[CurrentTimeViewController alloc] init];
     
     
     
-    NSArray *viewControllers = [NSArray arrayWithObjects:vc1, vc2, vc3, vc4, vc5, nil];
+    NSArray *viewControllers = [NSArray arrayWithObjects:vc1, vc2, nil];
     
     [tabBarController setViewControllers:viewControllers];
     
